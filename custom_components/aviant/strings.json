@@ -1,0 +1,140 @@
+{
+  "config": {
+    "flow_title": "Aviant {address}",
+    "step": {
+      "user": {
+        "title": "Aviant hinzufügen",
+        "data": {
+          "address": "Gerät",
+          "name": "Name"
+        }
+      },
+      "confirm": {
+        "title": "Aviant gefunden",
+        "description": "Aviant {address} einrichten?",
+        "data": {
+          "name": "Name"
+        }
+      }
+    },
+    "abort": {
+      "no_devices_found": "Keine Aviant-Geräte in Reichweite gefunden (App geschlossen?)",
+      "already_configured": "Gerät ist bereits eingerichtet"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Einstellungen",
+        "data": {
+          "scan_interval": "Abfrageintervall (Sekunden)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "temperatur": {
+        "name": "Temperatur"
+      },
+      "feuchte_roh": {
+        "name": "Feuchte (roh)"
+      },
+      "voc": {
+        "name": "Luftqualität (VOC)"
+      },
+      "voc_referenz": {
+        "name": "Luftqualität Referenz"
+      },
+      "voc_abweichung": {
+        "name": "Luftqualität Abweichung"
+      },
+      "drehzahl": {
+        "name": "Drehzahl"
+      },
+      "leistung": {
+        "name": "Leistung"
+      },
+      "boost_restzeit": {
+        "name": "Boost Restzeit"
+      },
+      "status_raw": {
+        "name": "Rohdaten"
+      },
+      "grundlueftung": {
+        "name": "Grundlüftung"
+      },
+      "stufe_feuchte": {
+        "name": "Stufe Feuchtesensor"
+      },
+      "stufe_luftqualitaet": {
+        "name": "Stufe Luftqualität"
+      },
+      "stufe_lueftung": {
+        "name": "Stufe Lüftungsfunktion"
+      },
+      "stufe_timer": {
+        "name": "Stufe Timer"
+      },
+      "empf_feuchte": {
+        "name": "Empfindlichkeit Feuchte",
+        "state": {
+          "niedrig": "niedrig",
+          "mittel": "mittel",
+          "hoch": "hoch"
+        }
+      },
+      "empf_licht": {
+        "name": "Empfindlichkeit Licht",
+        "state": {
+          "niedrig": "niedrig",
+          "mittel": "mittel",
+          "hoch": "hoch"
+        }
+      },
+      "empf_luftqualitaet": {
+        "name": "Empfindlichkeit Luftqualität",
+        "state": {
+          "niedrig": "niedrig",
+          "mittel": "mittel",
+          "hoch": "hoch"
+        }
+      },
+      "timer_laufzeit": {
+        "name": "Timer Laufzeit"
+      },
+      "timer_verzoegerung": {
+        "name": "Timer Startverzögerung"
+      },
+      "lueftung_laufzeit": {
+        "name": "Lüftungsfunktion Laufzeit"
+      }
+    },
+    "binary_sensor": {
+      "lueftet": {
+        "name": "Lüfter läuft"
+      },
+      "boost": {
+        "name": "Boost"
+      },
+      "dauermodus": {
+        "name": "Dauermodus"
+      },
+      "feuchtesensor": {
+        "name": "Feuchtesensor aktiv"
+      },
+      "lichtsensor": {
+        "name": "Lichtsensor aktiv"
+      },
+      "luftqualitaetssensor": {
+        "name": "Luftqualitätssensor aktiv"
+      },
+      "lueftungsfunktion": {
+        "name": "Lüftungsfunktion aktiv"
+      },
+      "timer": {
+        "name": "Timer aktiv"
+      }
+    }
+  }
+}
