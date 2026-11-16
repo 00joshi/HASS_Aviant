@@ -8,7 +8,7 @@
   "documentation": "https://github.com/00joshi/HASS_Aviant",
   "integration_type": "device",
   "iot_class": "local_polling",
-  "category": ["climate.fans_ventilation"],
+  "categories": ["climate.fans_ventilation"],
   "issue_tracker": "https://github.com/00joshi/HASS_Aviant/issues",
   "requirements": ["bleak-retry-connector>=3.0.0"],
   "version": "0.1.0"
