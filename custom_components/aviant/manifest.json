@@ -2,12 +2,13 @@
   "domain": "aviant",
   "name": "Inventer Aviant",
   "bluetooth": [{ "local_name": "Aviant", "connectable": true }],
-  "codeowners": [],
+  "codeowners": ["@00joshi"],
   "config_flow": true,
   "dependencies": ["bluetooth_adapters"],
-  "documentation": "https://github.com/",
+  "documentation": "https://github.com/00joshi/HASS_Aviant",
   "integration_type": "device",
   "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/00joshi/HASS_Aviant/issues",
   "requirements": ["bleak-retry-connector>=3.0.0"],
   "version": "0.1.0"
 }
